@@ -4,73 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >cantact us</title>
+    <link rel="stylesheet" href="style sheet/site.css">
 </head>
 <body>
-    <a href="index.html">Home</a>
-    <a href="about_us.html">About us</a>
-    <a href="contact_us.html">Contact Us</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About us</a>
+        <a href="contact_us.html">Contact Us</a>
+    </nav>
     
-    <h1 style="color: cornflowerblue;">Contact Us</h1>
+    
+    <h1>Contact Us</h1>
     <hr>
+    <article>
+        <!--tables-->
+        <h2>location</h2>
+        <table>
+            <tr>
+                <th>logo</th>
+                <th>location</th>
+                <th>opening hours</th>
+                <th>email address</th>
+                <th>phone number</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="" alt="logo 1">
+                </td>
+                <td>mandeville</td>
+                <td>9AM-5PM</td>
+                <td>mandevillebranch@preservation.com</td>
+                <td>1876-765-4321</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="" alt="logo 2">
+                </td>
+                <td>kingston</td>
+                <td>9AM-5PM</td>
+                <td>kingstonbranch@preservation.com</td>
+                <td>1876-765-4321</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="" alt="logo 3">
+                </td>
+                <td>montego bay</td>
+                <td>9AM-5PM</td>
+                <td>montegobaybranch@preservation.com</td>
+                <td>1876-765-4323</td>
+            </tr>
+        </table>
+    </article>
+    
+    <article>
+        <h2>General Inquries</h2>
+    <!--this sections for the inqury form-->
+        <form action="confirmation.html">
+            <label for="fullname">name: *</label><br>
+            <input required type="text" id="fullname" name="fullname">
+            <br>
+            <br>
+            <label for="email">email address: *</label><br>
+            <input required type="email" id="email" name="emailaddress">
+            <br>
+            <br>
+            <label for="">are you employed?</label><br>
+            <input type="radio" value="Y" name="employed"> yes
+            <input type="radio" value="n" name="employed"> no
+            <br>
+            <br>
+            <label for="inquiry">state your inquiry</label>
+            <br>
+            <br>
+            <textarea name="inquiry" id="inquiry" cols="50" rows="10" maxlength="150"></textarea>
 
-    <h2>location</h2>
-    <table>
-        <tr>
-            <th>logo</th>
-            <th>location</th>
-            <th>opening hours</th>
-            <th>email address</th>
-            <th>phone number</th>
-        </tr>
-        <tr>
-            <td>
-                <img src="" alt="logo 1">
-            </td>
-            <td>mandeville</td>
-            <td>9AM-5PM</td>
-            <td>mandevillebranch@preservation.com</td>
-            <td>1876-765-4321</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="" alt="logo 2">
-            </td>
-            <td>kingston</td>
-            <td>9AM-5PM</td>
-            <td>kingstonbranch@preservation.com</td>
-            <td>1876-765-4321</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="" alt="logo 3">
-            </td>
-            <td>montego bay</td>
-            <td>9AM-5PM</td>
-            <td>montegobaybranch@preservation.com</td>
-            <td>1876-765-4323</td>
-        </tr>
-    </table>
-    <h2>General Inquries</h2>
-    <form action="confirmation.html">
-        <label for="fullname">name: *</label><br>
-        <input required type="text" id="fullname" name="fullname">
-        <br>
-        <br>
-        <label for="email">email address: *</label><br>
-        <input required type="email" id="email" name="emailaddress">
-        <br>
-        <br>
-        <label for="">are you employed?</label><br>
-        <input type="radio" value="Y" name="employed"> yes
-        <input type="radio" value="n" name="employed"> no
-        <br>
-        <br>
-        <label for="inquiry">state your inquiry</label>
-        <br>
-        <br>
-        <textarea name="inquiry" id="inquiry" cols="50" rows="10" maxlength="150"></textarea>
+            <input type="submit"/>
+        </form>
+    </article>
 
-        <input type="submit"/>
-    </form>
+    <footer>
+        <!-- embedded links -->
+        <a href="http://www.Amazon.com" target="_blank">Amazon</a>
+        <br>
+        <br>
+        <a href="http://www.ebay.com" target="_blank">Ebay</a>
+        <br>
+        <br>
+        <a href="https://www.artstation.com/akein_bantin" target="blank">ArtStation</a>
+    </footer>
+    
 </body>
 </html>
