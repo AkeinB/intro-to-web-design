@@ -73,3 +73,15 @@ nav a:hover{
 article{
     margin-bottom: auto 50px;
 }
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.Dtext{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.weirdcolor{
+    color: darkmagenta;
+}
