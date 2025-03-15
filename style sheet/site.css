@@ -61,7 +61,7 @@ nav a:hover{
     text-decoration: overline;
 }
 
-#main, main{
+#main, main, article{
     width: 80%;
     margin: 0 auto;
 }
@@ -72,6 +72,7 @@ nav a:hover{
 
 article{
     margin-bottom: auto 50px;
+    
 }
 .logo{
     height: 60px;
